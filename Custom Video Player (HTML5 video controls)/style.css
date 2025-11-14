@@ -1,0 +1,21 @@
+.video-container {
+    width: 800px;
+    margin: 50px auto;
+    position: relative;
+}
+
+.controls {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
+    background: rgba(0,0,0,0.5);
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+#seek-bar {
+    flex-grow: 1;
+    margin-left: 10px;
+}

@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 500px;
+    margin: 50px auto;
+}
+
+#habit-list {
+    list-style: none;
+    padding: 0;
+}
+
+.habit-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.habit-item span {
+    flex-grow: 1;
+}
+
+.habit-item input[type="checkbox"] {
+    margin-right: 10px;
+}

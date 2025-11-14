@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #d95550;
+    color: white;
+}
+
+.container {
+    text-align: center;
+}
+
+#timer-display {
+    font-size: 6em;
+    font-weight: bold;
+}
+
+.buttons button {
+    font-size: 1.2em;
+    padding: 10px 20px;
+    margin: 10px;
+    border: 2px solid white;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}

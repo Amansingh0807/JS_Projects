@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    width: 450px;
+    text-align: center;
+}
+
+.tabs {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.tab-link {
+    background: #ddd;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background 0.3s;
+}
+
+.tab-link.active {
+    background: #28a745;
+    color: #fff;
+}
+
+.tab-link:hover {
+    background: #ccc;
+}
+
+.tab-content {
+    display: none;
+}
+
+.display {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding: 20px;
+    background: #eee;
+    border-radius: 8px;
+}
+
+.controls button, .controls input {
+    padding: 10px 15px;
+    margin: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.controls button {
+    background: #007bff;
+    color: #fff;
+    border: none;
+}
+
+.controls button:hover {
+    background: #0056b3;
+}
+
+#timer-input {
+    width: 100px;
+}

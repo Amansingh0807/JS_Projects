@@ -1,0 +1,24 @@
+.container {
+    width: 80%;
+    margin: 50px auto;
+    text-align: center;
+}
+
+#quote {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    background: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#typing-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1em;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 1.2em;
+}
