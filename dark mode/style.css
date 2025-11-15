@@ -1,0 +1,64 @@
+body {
+    margin: 0; /* Removes default margin */
+    display: flex; /* Uses flexbox layout */
+    justify-content: center; /* Centers content horizontally */
+    height: 100vh; /* Sets height of body to 100% of the viewport */
+    align-items: center; /* Centers content vertically */
+    transition: .4s; /* Adds a smooth transition effect when background changes */
+}
+
+.input {
+    visibility: hidden; /* Hides the checkbox input, making it invisible */
+}
+
+  
+.label {
+    position: absolute; /* Allows precise positioning */
+    width: 80px; /* Sets the width of the toggle */
+    height: 40px; /* Sets the height of the toggle */
+    background-color: lightgray; /* Sets the background color of the toggle to light gray */
+    border-radius: 20px; /* Makes the toggle background rounded */
+    cursor: pointer; /* Changes the cursor to a pointer when hovering */
+}
+
+  
+.round {
+    width: 34px; /* Width of the round knob */
+    height: 34px; /* Height of the round knob */
+    background-color: white; /* Sets the knob's color to white */
+    border-radius: 50%; /* Makes the knob circular */
+    top: 3px; /* Positions the knob vertically inside the label */
+    position: absolute; /* Allows the knob to be positioned absolutely inside the label */
+    left: 3px; /* Positions the knob 3px from the left inside the label */
+    animation: toggleOff 0.4s linear forwards; /* Starts with the animation to move the knob to the left (toggle off state) */
+}
+
+  
+.input:checked + .label {
+    background-color: white; /* Changes the label (toggle background) to white when checked */
+}
+
+  
+.input:checked + .label .round {
+    animation: toggleOn 0.4s linear forwards; /* Runs the animation that moves the knob to the right */
+    background-color: black; /* Changes the knob color to black when checked */
+}
+
+  
+  @keyframes toggleOn {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(40px);
+    }
+  }
+  
+  @keyframes toggleOff {
+    0% {
+      transform: translateX(40px);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }

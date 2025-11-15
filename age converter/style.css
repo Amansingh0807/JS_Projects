@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+body{
+    background: linear-gradient(270deg, #154215,#254362);
+}
+.text{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+h1{
+    text-align: center;
+    padding: 20px;
+}
+.container{
+    background: #fff;
+    width: 400px;
+    height: 300px;
+    border-radius: 20px;
+    /* align-content: center; */
+    margin-left: 400px;
+    margin-top: 100px;
+}
+
+.age-in{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+
+}
+
+
+
+.age-on{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+
+}
