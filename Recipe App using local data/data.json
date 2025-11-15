@@ -1,0 +1,64 @@
+{
+    "recipes": [
+        {
+            "id": 1,
+            "name": "Spaghetti Carbonara",
+            "image": "https://via.placeholder.com/300x200.png?text=Spaghetti",
+            "ingredients": [
+                "200g spaghetti",
+                "100g pancetta",
+                "2 large eggs",
+                "50g pecorino cheese",
+                "Black pepper"
+            ],
+            "instructions": [
+                "Cook spaghetti according to package directions.",
+                "Fry pancetta until crisp.",
+                "Whisk eggs and cheese together.",
+                "Drain pasta, reserving some pasta water.",
+                "Combine pasta, pancetta, and egg mixture. Add pasta water if needed. Season with pepper."
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Chicken Curry",
+            "image": "https://via.placeholder.com/300x200.png?text=Curry",
+            "ingredients": [
+                "500g chicken breast",
+                "1 onion, chopped",
+                "2 cloves garlic, minced",
+                "1 tbsp curry powder",
+                "400ml coconut milk",
+                "1 tbsp oil"
+            ],
+            "instructions": [
+                "Heat oil in a pan and cook chicken until browned.",
+                "Add onion and garlic, cook until soft.",
+                "Stir in curry powder.",
+                "Pour in coconut milk and simmer for 15 minutes.",
+                "Serve with rice."
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Chocolate Cake",
+            "image": "https://via.placeholder.com/300x200.png?text=Cake",
+            "ingredients": [
+                "200g flour",
+                "200g sugar",
+                "100g cocoa powder",
+                "1.5 tsp baking powder",
+                "2 eggs",
+                "250ml milk",
+                "125ml vegetable oil"
+            ],
+            "instructions": [
+                "Preheat oven to 180°C (350°F).",
+                "Mix dry ingredients in a large bowl.",
+                "In a separate bowl, whisk eggs, milk, and oil.",
+                "Pour wet ingredients into dry ingredients and mix until smooth.",
+                "Pour batter into a greased cake pan and bake for 30-35 minutes."
+            ]
+        }
+    ]
+}
